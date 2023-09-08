@@ -4,17 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> stage1 task </title>
-    <script>
-        var myUTCTime = new Date().getTime();
-        document.write(myUTCTime);
-        </script>
+  <link rel="stylesheet" href=" index.css">
 </head>
 <body>
+   
     <h1 data-testid ="slackUserName">Ndukaobikwelu Ogugua</h1>
     <img src="IMG-20230202-WA0000_3.jpg" alt="Ndukaobikwelu Ogugua" data-testid="slackDisplayImage">
     <p data-testid="currentDayOfTheWeek"> Friday</p>
+    <div id="myOutput">
+        <p id="myOutputContent" data-testid="currentUTCTime"></p>
+    </div>
     <p data-testid="myTrack">TRACK: frontend</p>
-    
-   
+    <a href="https://github.com/OGUGUA54/zuri-training-task1.git" data-testid="githubURL">//github.com/OGUGUA54/zuri-training-task1.git</a>
+  
+   <script src="./index.js"></script>
 </body>
 </html>
